@@ -1,0 +1,14 @@
+E:\FlairBees\Development\CRM\200\Build1\FB.Grid.Mvc\bin\Debug\FB.Grid.Mvc.dll
+E:\FlairBees\Development\CRM\200\Build1\FB.Grid.Mvc\bin\Debug\FB.Grid.Mvc.pdb
+E:\FlairBees\Development\CRM\200\Build1\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.dll
+E:\FlairBees\Development\CRM\200\Build1\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.pdb
+E:\FlairBees\Development\Components\FB.Grid.Mvc\bin\Debug\FB.Grid.Mvc.dll
+E:\FlairBees\Development\Components\FB.Grid.Mvc\bin\Debug\FB.Grid.Mvc.pdb
+E:\FlairBees\Development\Components\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.dll
+E:\FlairBees\Development\Components\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.pdb
+E:\FlairBees\Development\Components\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.csprojResolveAssemblyReference.cache
+E:\FlairBees\Development\Components\1.0.14\FB.Grid.Mvc\bin\Debug\FB.Grid.Mvc.dll
+E:\FlairBees\Development\Components\1.0.14\FB.Grid.Mvc\bin\Debug\FB.Grid.Mvc.pdb
+E:\FlairBees\Development\Components\1.0.14\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.dll
+E:\FlairBees\Development\Components\1.0.14\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.pdb
+E:\FlairBees\Development\Components\1.0.14\FB.Grid.Mvc\obj\Debug\FB.Grid.Mvc.csprojResolveAssemblyReference.cache

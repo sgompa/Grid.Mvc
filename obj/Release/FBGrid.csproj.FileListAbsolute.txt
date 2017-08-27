@@ -1,0 +1,17 @@
+D:\WebApplication5\FBGrid\bin\Release\FBGrid.dll
+D:\WebApplication5\FBGrid\bin\Release\FBGrid.pdb
+D:\WebApplication5\FBGrid\bin\Release\System.Web.Mvc.dll
+D:\WebApplication5\FBGrid\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\WebApplication5\FBGrid\bin\Release\System.Web.Mvc.xml
+D:\WebApplication5\FBGrid\bin\Release\Microsoft.Web.Infrastructure.xml
+D:\WebApplication5\FBGrid\obj\Release\FBGrid.dll
+D:\WebApplication5\FBGrid\obj\Release\FBGrid.pdb
+E:\CRM\200\Build1\FBGrid\bin\Release\FBGrid.dll
+E:\CRM\200\Build1\FBGrid\bin\Release\FBGrid.pdb
+E:\CRM\200\Build1\FBGrid\obj\Release\FBGrid.dll
+E:\CRM\200\Build1\FBGrid\obj\Release\FBGrid.pdb
+D:\WebApplication5\FBGrid\obj\Release\FBGrid.csprojResolveAssemblyReference.cache
+E:\FlairBees\Development\CRM\200\Build1\FBGrid\bin\Release\FBGrid.dll
+E:\FlairBees\Development\CRM\200\Build1\FBGrid\bin\Release\FBGrid.pdb
+E:\FlairBees\Development\CRM\200\Build1\FBGrid\obj\Release\FBGrid.dll
+E:\FlairBees\Development\CRM\200\Build1\FBGrid\obj\Release\FBGrid.pdb
