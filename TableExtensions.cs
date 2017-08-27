@@ -146,6 +146,7 @@ namespace GSK.Grid.Helpers
                                 
                                 ToggleButton tb = (ToggleButton)rb;
                                 string confirmMesage = tb.ConfirmMessage;
+                                if (r.Fields[tb.ToggleField] == null) throw new Exception(tb.ToggleField + " field not found");
                                 string value = r.Fields[tb.ToggleField].Value;
                                 if (Convert.ToString(value) == Convert.ToString(tb.ToggleValue))
                                 {
