@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MvcGrid</id>
+    <version>1.0.14</version>
+    <title>MVCGrid</title>
+    <authors>Sateesh Kumar Gompa</authors>
+    <owners>Sateesh Kumar Gompa</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Asp.Net MVC Grid with Ajax CRUD opeartions and also supports Search, Change Page size and Paging. User can add toggle buttons like Activate/Deactivate with jQuery Modal Popup in rows</description>
+    <releaseNotes>This version enable to build Grid from any list of objects. It has an option to disable edit, activate based on data in row</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>ajax mvc grid pager paging grid</tags>
+	<dependencies>
+	   <dependency id="jQuery.UI.Combined" version="1.12.1" />
+	</dependencies>
+	
+  </metadata>
+  <files>
+  <file src="bin\release\GSK.Grid.Mvc.dll" target="\lib\net45\GSK.Grid.Mvc.dll" />
+  <file src="gskgrid-min.js" target="content\Scripts\gskgrid-min.js" />
+  <file src="jquery.form.min.js" target="content\Scripts\jquery.form.min.js" />
+  <file src="GSKGridView.cshtml" target="content\Views\Shared\GSKGridView.cshtml" />
+  <file src="readme.txt" target="content\readme.txt" />
+  </files>
+ 
+ 
+ 
+</package>
