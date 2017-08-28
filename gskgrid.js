@@ -1,15 +1,15 @@
 ﻿/*!
  * MvcGrid.Ajax.Net Plugin
  * version: 1.0.14-2017.06.01
- * Requires jQuery v1.12.1 or later
+ * Requires jQuery 1.12.1 or later
  * Copyright (c) 2017 Sateesh Kumar Gompa
 
  
  */
 function GridHandler() {
-    if ($.validator.unobtrusive != undefined) {
-        $.validator.unobtrusive.parse("form");
-    }
+    //if ($.validator.unobtrusive != undefined) {
+    //    $.validator.unobtrusive.parse("form");
+    //}
     this.registerEvents();
 }
 
@@ -45,10 +45,10 @@ GridHandler.prototype.refresh = function (containerId) {
 }
 GridHandler.prototype.registerEvents = function () {
 
-    var me = this;
+
     $('#chkAll').click(function () {
         var me = this;
-        var frm = $(this).closest('form');
+        var frm = $(this).closest('div');
         $(frm).find('input[type=checkbox]').each(function (index, chk) {
             if (chk.name != 'chkAll') chk.checked = me.checked;
         });
@@ -124,19 +124,18 @@ GridHandler.prototype.registerEvents = function () {
                             }
                         }
                     },
-                {
-                    text: 'Cancel',
-                    click: function () {
-                        $(modalDialog).find('#modalBody').html('');
-                        $(modalDialog).find('#ErrMsg').html('');
-                        dialog.dialog("close");
-                    }
-                }]
+                    {
+                        text: 'Cancel',
+                        click: function () {
+                            $(modalDialog).find('#modalBody').html('');
+                            $(modalDialog).find('#ErrMsg').html('');
+                            dialog.dialog("close");
+                        }
+                    }]
                 });
 
             },
-            error: function (xhr, status, error)
-            {
+            error: function (xhr, status, error) {
                 me.OKPopup(error, false, containerId);
 
             }
@@ -377,13 +376,13 @@ function doAction(containerId, params, url, title, msg) {
                 });
             }
         },
-                 {
-                     text: 'No',
-                     click: function () {
-                         dialog.dialog('close');
-                     }
+        {
+            text: 'No',
+            click: function () {
+                dialog.dialog('close');
+            }
 
-                 }]
+        }]
 
 
 
