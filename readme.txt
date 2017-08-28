@@ -1,4 +1,6 @@
-﻿Create below list of actions in a controller
+﻿using GSK.Grid;
+
+Create below list of actions in a controller
 
 ----------------------------------------------------------------------
 public ActionResult GetProducts(GridModel model)   /// Here action name "GetProducts" is to be replaced with appropriate action name
@@ -16,8 +18,9 @@ public ActionResult GetProducts(GridModel model)   /// Here action name "GetProd
 
         new DisplayField() { FieldName="ProductCode", FieldHeader="Product Code" },    //fieldname and fieldheader based on list returned from business method
         new DisplayField() { FieldName="Price", FieldHeader="Price" },
-		new DisplayField() { FieldName="ProductName", FieldHeader="Title", FieldType=DisplayFieldType.HyperLink, NavigateUrl="Product/Details?id={0}", NavigateUrlFields=new string[] {"ProductCode" } }
-      ------
+		new DisplayField() { FieldName="ProductName", FieldHeader="Title", FieldType=DisplayFieldType.HyperLink, NavigateUrl="Product/Details?id={0}", NavigateUrlFields=new string[] {"ProductCode" } },
+		new DisplayField() { FieldName="Status", FieldHeader="Status" }
+        //------
 
 
     };

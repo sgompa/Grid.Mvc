@@ -59,9 +59,9 @@ namespace GSK.Grid.Helpers
             foreach (HeaderButton hb in model.GridOptions.HeaderButtons)
                 if (hb.IsPopup)
                     //sb.Append(String.Format("<a href = '' class='hButton' style='margin-right:10px' url='{5}'  onclick = \"updateRecord('{0}',this,'{1}','{2}','{3}'); return false; \" >{4}</a>", model.Id, 1, hb.Url, hb.PopupTitle,hb.Text, hb.Url));
-                    sb.Append(String.Format("<a href = '' class='hButton {3}' style='margin-right:10px' popup='1' url='{0}' title='{1}'  >{2}</a>", hb.Url,hb.PopupTitle, hb.Text, hb.CSSClass));
+                    sb.Append(String.Format("<a href = '' class='hButton {3}' style='margin-left:10px' popup='1' url='{0}' title='{1}'  >{2}</a>", hb.Url,hb.PopupTitle, hb.Text, hb.CSSClass));
                 else
-                    sb.Append(String.Format("<a style='margin-right:10px' class='hButton {3}' popup='0'  href = '{0}/{1}?p={2}'>{3}</a>", hb.Url,1, model.PageNo,hb.Text, hb.CSSClass));
+                    sb.Append(String.Format("<a style='margin-left:10px' class='hButton {3}' popup='0'  href = '{0}/{1}?p={2}'>{3}</a>", hb.Url,1, model.PageNo,hb.Text, hb.CSSClass));
 
             /////////////sb.Append("<button type='button' id='hb' onclick='' style='margin-left:10px'>" + hb.Text +"</button></div>");
             sb.Append("</div>");
@@ -77,7 +77,7 @@ namespace GSK.Grid.Helpers
             sb.Append("</div>");
 
             //Table header
-            sb.Append("<div class='row'><div class='col-md-12'><div  style =\"overflow-x:auto\"><table class='table table-striped'><thead><tr>");
+            sb.Append("<div class='row'><div class='col-md-12'><div  style =\"overflow-x:auto\"><table class='table table-hover'><thead><tr>");
             if (model.Data.Headers != null)
             {
                 if (model.GridOptions.ShowCheckBoxes)
@@ -147,7 +147,7 @@ namespace GSK.Grid.Helpers
                                 ToggleButton tb = (ToggleButton)rb;
                                 string confirmMesage = tb.ConfirmMessage;
                                 if (r.Fields[tb.ToggleField] == null) throw new Exception(tb.ToggleField + " field not found");
-                                string value = r.Fields[tb.ToggleField].Value;
+                                string value = r.Fields[tb.ToggleField].Value.ToString();
                                 if (Convert.ToString(value) == Convert.ToString(tb.ToggleValue))
                                 {
                                     t = tb.ToggleText;
